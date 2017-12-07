@@ -1,0 +1,4 @@
+name: Remove X-Generator
+type: module
+description: Enable to remove the X-Generator response header and META generator tag. No configuration required!
+core: 8.x

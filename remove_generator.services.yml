@@ -1,0 +1,5 @@
+services:
+  remove_x_generator_response_header:
+    class: Drupal\remove_generator\EventSubscriber\RemoveXGeneratorResponseHeader
+    tags:
+      - { name: event_subscriber }
